@@ -1,0 +1,60 @@
+/* *** commons *** */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffffb7;
+}
+
+.container {
+    width: 60%;
+    height: 300px;
+    margin: 50px auto;
+    background-color: #fff192;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+/* *** header *** */
+
+header {
+    height: 100px;
+    background-color: #fff192;
+    line-height: 100px;
+    text-align: center;
+}
+
+header h1 {
+    color: goldenrod;
+    font-size: 50px;
+    text-shadow: .5px 1px black;
+}
+
+header h1::before {
+    content: "\f084";
+    font-family: "Font Awesome 6 Free"; 
+    font-weight: 900;
+    font-size: 50px;
+    color: goldenrod;
+    margin-right: 5px;
+}
+
+/* *** main *** */
+main h6 {
+    font-size: 40px;
+    color: goldenrod;
+}
+
+#password {
+    font-size: 45px;
+    font-weight: bold;
+    margin-top: 25px;
+    color: goldenrod;
+}
