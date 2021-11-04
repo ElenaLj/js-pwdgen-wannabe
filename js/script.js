@@ -25,3 +25,6 @@ console.log(mySurname);
 
 const myFavColor = prompt("Inserisci qui il tuo colore preferito");
 console.log(myFavColor);
+
+let myPassword = myName + mySurname + myFavColor + 21;
+console.log(myPassword);
