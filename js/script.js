@@ -19,3 +19,6 @@
 
 const myName = prompt("Inserisci qui il tuo nome");
 console.log(myName);
+
+const mySurname = prompt("Inserisci qui il tuo cognome");
+console.log(mySurname);
