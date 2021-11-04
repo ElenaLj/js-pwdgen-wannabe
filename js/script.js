@@ -22,3 +22,6 @@ console.log(myName);
 
 const mySurname = prompt("Inserisci qui il tuo cognome");
 console.log(mySurname);
+
+const myFavColor = prompt("Inserisci qui il tuo colore preferito");
+console.log(myFavColor);
